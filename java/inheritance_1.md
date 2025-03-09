@@ -53,3 +53,10 @@ public static void main(String[] args) {
     }
 }
 ```
+Output: 
+javac Vehicle.java
+java SportsCar
+The speed is 300 The color is Blue
+The Model of the car is: Ferrari 89G
+The turbo of the car is: 98
+The speed is 100 The color is black
