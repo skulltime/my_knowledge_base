@@ -1,11 +1,10 @@
-// Design a Java program to model a Vehicle  hierarchy.   
+Design a Java program to model a Vehicle  hierarchy.   
+Create a superclass Vehicle with attributes speed and color, and a method displayInfo().  
+Implement single inheritance  by creating a subclass Car that inherits from Vehicle and adds a model attribute. Override displayInfo() to include the model.  
+Implement multilevel inheritance  by creating a subclass SportsCar that inherits from Car and adds a turbo attribute. Override displayInfo() again.  
+Use super to call the superclass constructor and methods.
 
-//     Create a superclass Vehicle with attributes speed and color, and a method displayInfo().  
-//     Implement single inheritance  by creating a subclass Car that inherits from Vehicle and adds a model attribute. Override displayInfo() to include the model.  
-//     Implement multilevel inheritance  by creating a subclass SportsCar that inherits from Car and adds a turbo attribute. Override displayInfo() again.  
-//     Use super to call the superclass constructor and methods.
-
-'''
+```
  class Vehicle{
     int speed;
     String color;
@@ -53,4 +52,4 @@ public static void main(String[] args) {
         System.out.println("\nspeed of the car is "+n.speed);
     }
 }
-'''
+```
