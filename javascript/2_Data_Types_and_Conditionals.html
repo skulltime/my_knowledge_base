@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //const string = "The revolution will not be televised.";
+        //console.log(string);
+        // const badString1 = This is a test;
+        // const badString2 = 'This is a test;
+        // const badString3 = This is a test';
+    //the above three lines are sure to produce errors because of the fact that they are not enclosed with either same type of quotes i.e ' ' or " "
+        //const goodString = string;
+        //TEMPLATE LITERALS
+        // let name = "Skull Knight";
+        // let s1 = `hello, ${name}`;
+        // console.log(s1);
+        //  let name = "Skull Knight";
+        // let s1 = 'hello, ' +name;
+        // //console.log(s1);
+        // let x = 5, y=10;
+        // s1 = 'hello '+ (x+y);
+        // console.log(s1); //concatenates the string
+        //MULTILINE STRINGS (COOL FEATURE IMO)
+        //for template literals ` `
+//        let string = `I shalt continue
+//to speak`; //spacing matters a lot here
+//        console.log(string);
+        
+        //for normal string
+        //let str = "hello my friends \n i shall continue to speak"
+        //console.log(str);
+        //including quotes in string
+        //use different characters for including quotes in string, same kind of characters for the quotes and the actual string encapsulation will not work.
+    //   let string = 'Griffith continued to speak, saying "We shall become friends" '
+        //same characters dont work
+       // string = 'he said 'no' '
+      //  string = " he said "no " "
+    //    string = ` he said `no` `
+        //or use escape characters    
+    // string = 'i\'ve'
+    //NUMBERS AND STRINGS
+    //numbers are converted to string while logging them with a string
+    // let string = "hello there ";
+    // let variable = 5;
+    // console.log(string + variable);
+    //CONVERTING STRINGS AND NUMBERS
+    let x = 100;
+    let str = String(x);//temporary conversion
+    console.log(typeof(str)); 
+    console.log(typeof(x));
+    let string = "61"
+    let variable = Number(string);
+    console.log(typeof(variable)); //temporary conversion
+    console.log(typeof(string));
+    let newStr = "Hello"
+    let convertnewStr = Number(newStr);
+    console.log(convertnewStr); //Output: Not a Number .... this is because we tried to convert a string(which was not a number in nature)into a number 
+    
+     </script>
+</body>
+</html>
